@@ -1,0 +1,115 @@
+.checkout__radio{
+  flex: 0.2;
+}
+.checkout__address{
+  flex: 0.6;
+}
+.checkout__edit{
+  flex: 0.2;
+}
+.checkout__edit button{
+  width: 100%;
+  padding-left: 15px ;
+  padding-right: 15px;
+  text-align: center;
+
+}
+.checkout__sections__price {
+  padding: 20px;
+}
+.section__childrens {
+  padding: 15px;
+}
+.section__header {
+  border: none;
+  padding: 10px;
+  background-color: #2874f0;
+  color: white;
+}
+.checkout__sections {
+  display: flex;
+  padding: 25px;
+}
+.section__step {
+  padding: 5px;
+  background-color: white;
+  color: #2874f0;
+  width: 40px;
+  height: 30px;
+  margin-right: 5px;
+}
+.section__operatin {
+  font-size: 14px;
+}
+.checkout__sections__steps {
+  flex: 0.5;
+  padding: 20px;
+}
+.checkout__sections__price {
+  flex: 0.5;
+}
+.checkout__cont__addresses { 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+}
+.checkout__address__detail {
+  font-size: 14px;
+  font-weight: bold;
+}
+.imogi {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.loginButton {
+  display: block;
+  width: 100px;
+  height: 30px;
+  background: #fff;
+  text-align: center;
+  line-height: 30px;
+  color: #2874f0;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+.row {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  height: 528px;
+  max-width: 750px;
+  min-width: 650px;
+}
+
+.leftspace {
+  width: 40%;
+  height: 100%;
+  color: #fff;
+  letter-spacing: 1px;
+  background-image: url("../../assets/images/flipkart.png");
+  background-color: #c5cedb;
+  background-repeat: no-repeat;
+  background-position: center 85%;
+  padding: 40px 33px;
+  box-sizing: border-box;
+}
+
+.rightspace {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+.price__div{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.price__div span{
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}

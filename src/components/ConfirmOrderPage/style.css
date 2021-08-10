@@ -1,0 +1,30 @@
+.items{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(236, 236, 236);
+    margin-bottom: 15px;
+}
+.items__img{
+    display: flex;
+    align-items: center;
+    flex: 0.5;
+}
+.items__img img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.items__qty{
+    flex: 0.2;
+}
+.items__price{
+    flex: 0.2;
+}
+.items__payment{
+    flex: 0.3;
+}
+p{
+    text-align: center;
+}
